@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marca Personal</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+	<nav class="navbar">
+		<a href="#acerca-de" class="active">Acerca de</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#contacto">Contacto</a>
+	</nav>
+
+	<section id="acerca-de">
+		<div class="acerca-de">
+			<h1>Acerca de</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique, leo vel eleifend gravida, ipsum eros pharetra enim, vel tristique ligula velit eget tellus. In sodales massa velit, quis sollicitudin urna mollis a. Phasellus a urna vel mauris facilisis consequat. Donec nisl turpis, pellentesque vel velit a, scelerisque vestibulum orci. Donec fringilla orci et libero rhoncus, ac aliquam lacus bibendum. </p>
+      <figure>
+  <p><img src="eiffel.jpg"
+    width="136" height="200"
+    alt="Eiffel tower">
+  <figcaption>Scale model of the
+    Eiffel tower in
+    Parc Mini-F</figcaption>
+</figure>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<div class="portfolio">
+			<article>
+				<img src="proyecto1.jpg" alt="mi-proyecto1">
+				<figcaption>Proyecto 1</figcaption>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique, leo vel eleifend gravida, ipsum eros pharetra enim, vel tristique ligula velit eget tellus. </p>
+			</article>
+			<article>
+				<img src="proyecto2.jpg" alt="mi-proyecto2">
+				<figcaption>Proyecto 2</figcaption>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique, leo vel eleifend gravida, ipsum eros pharetra enim, vel tristique ligula velit eget tellus. </p>
+			</article>
+			<article>
+				<img src="proyecto3.jpg" alt="mi-proyecto3">
+				<figcaption>Proyecto 3</figcaption>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique, leo vel eleifend gravida, ipsum eros pharetra enim, vel tristique ligula velit eget tellus. </p>
+			</article>
+		</div>
+	</section>
+
+	<section id="contacto">
+		<div class="contacto">
+			<h1>Contacto</h1>
+			<form action="">
+				<input type="text" name="nombre" placeholder="Nombre" required minlength="3" maxlength="20" pattern="[a-zA-Z]{3,20}">
+				<input type="number" name="edad" placeholder="Edad" required min="18" max="99">
+				<input type="email" name="email" placeholder="Email" required>
+				<textarea name="mensaje" placeholder="Mensaje" required maxlength="250"></textarea>
+				<input type="checkbox" name="privacidad" required>
+				<label for="privacidad">Acepto la política de privacidad</label>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		Hugo gonzalez - aplicaciones Web
+	</footer>
+
+</body>
+</html>

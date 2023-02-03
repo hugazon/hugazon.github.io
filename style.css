@@ -1,0 +1,119 @@
+figure {
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+body {
+			margin: 0;
+			padding: 0;
+			font-family: Times New Roman;
+		}
+
+		.navbar {
+			background-color: #F633FF;
+			position: sticky;
+			top: 0;
+			width: 100%;
+			height: 50px;
+			padding: 10px;
+			box-sizing: border-box;
+			z-index: 1;
+		}
+
+		.navbar a {
+			text-decoration: none;
+			line-height: 50px;
+			color: #000;
+			font-size: 18px;
+			padding: 10px;
+			margin: 0 10px;
+			transition: all 0.4s;
+		}
+
+		.navbar a:hover {
+			background-color: #ccc;
+			border-radius: 5px;
+		}
+
+		.acerca-de {
+			background-color: #EEE;
+			margin: 0;
+			padding: 10px;
+			text-align: center;
+			box-sizing: border-box;
+		}
+
+		.acerca-de h1 {
+			font-size: 24px;
+			font-family: Times New Roman;
+			margin: 0;
+			padding: 10px 0;
+		}
+
+		.portfolio {
+			background-color: #Fff333;
+			margin: 0;
+			padding: 10px;
+			text-align: center;
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.portfolio article {
+			width: 300px;
+			background-color: #FFF;
+			margin: 10px;
+			padding: 10px;
+			text-align: center;
+			box-sizing: border-box;
+		}
+
+		.portfolio article img {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.contacto {
+			background-color: #999;
+			margin: 0;
+			padding: 10px;
+			text-align: center;
+			box-sizing: border-box;
+		}
+
+		.contacto form {
+			margin: 10px 0;
+		}
+
+		.contacto input, .contacto textarea {
+			margin: 10px 0;
+			padding: 10px;
+			width: 100%;
+			box-sizing: border-box;
+			border: 1px solid #000;
+			border-radius: 5px;
+		}
+
+		.contacto input[type="submit"] {
+			background-color: #000;
+			color: #FFF;
+			border: none;
+			cursor: pointer;
+		}
+
+		.footer {
+			background: linear-gradient(#000, #FFF);
+			margin: 0;
+			padding: 10px;
+			text-align: center;
+			box-sizing: border-box;
+			color: #999;
+			font-size: 14px;
+			font-family: sans-serif;
+		}
